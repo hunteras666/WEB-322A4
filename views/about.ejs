@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Lego Collection</title>
+  <link href="/css/main.css" rel="stylesheet">
+</head>
+<body class="bg-base-100 text-base-content">
+
+  <!-- Navigation bar inclusion -->
+  <%- include('./partials/navbar', { page: '/about' }) %>
+
+  <!-- Hero section -->
+  <div class="hero bg-base-200 rounded-lg p-6">
+    <div class="hero-content text-center">
+      <div class="max-w-md">
+        <h1 class="text-5xl font-bold">About</h1>
+        <p class="py-6">Learn More About Me</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mx-auto p-6">
+    <div class="bg-base-200 p-6 rounded-lg shadow-lg grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div>
+        <img src="https://i.imgflip.com/729omm.jpg" alt="Cat Image" class="w-full rounded-lg shadow-lg">
+      </div>
+      <div>
+        <p>My name is Rajesh Sah, and I’m currently in Toronto,Canada and I'm pursuing computer programming in Seneca College.</p>
+        <p>I enjoy coding and couple of other things as well like chess electric guitar and have a passion of doing all those at the same time. :></p>
+        <p>I’m more of nature guy or some people like to say mountain man cus I'mm from Nepal, I like going out in the mountains onn a trail, hiking and all.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

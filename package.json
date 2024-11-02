@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "tailwindcss -i ./public/css/tailwind.css -o ./public/css/main.css",
+    "tw:build": "tailwindcss -i ./public/css/tailwind.css -o ./public/css/main.css --watch"
+  },
+  "author": "Rajesh Sah",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "http": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15",
+    "autoprefixer": "^10.4.20",
+    "daisyui": "^4.12.13",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hunteras666/WEB-322A4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hunteras666/WEB-322A4/issues"
+  },
+  "homepage": "https://github.com/hunteras666/WEB-322A4#readme"
+}
